@@ -66,7 +66,7 @@ export default {
       },
       showaleave(){
         this.show=true;
-        this.list=this.menuList;
+        this.list=[];
       },
 
     }
