@@ -1,6 +1,6 @@
 <template>
   <li class="cascader-item">
-      <p>{{ data.label }}</p>
+      <p @click="router(data.path)">{{ data.label }}</p>
   </li>
 </template>
 
@@ -9,6 +9,14 @@ export default {
     name: "CascaderItem",
     props: {
         data: Object
+    },
+    methods:{
+        router(path){
+            if(path!=undefined){
+                console.log("path11111111",path);
+                this.$router.push("/hello")
+            }
+        },
     }
 }
 </script>

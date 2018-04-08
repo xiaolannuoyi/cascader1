@@ -39,7 +39,7 @@ export default {
     enterul(){
       this.currentIndex = -1;
       this.childMenu = [];
-    }
+    },
   }
 };
 </script>
