@@ -75,5 +75,8 @@ export default {
 </script>
 
 <style>
-
+.btn,.div{
+height: 50px;
+width: 100px;
+}
 </style>

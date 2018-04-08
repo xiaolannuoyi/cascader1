@@ -21,7 +21,7 @@ export default {
 <style scpoed>
 .cascader{
   position: absolute;
-  height: 100%;
+  height: 300px;
   background-color: #eee;
 }
 </style>
